@@ -1,6 +1,6 @@
 # ConcertMonster-React-Fullstack-Capstone
 "ConcertMonster" | Thinkful fullstack Capstone
-The ConcertMonsetr app is an easy way to search, follow, and keep track of when your favorite artists or bands are coming to your town! Insid eyou can creat an account, search for artists and save artists to your followed artists list. You can also get more information or even purchase tickets by clicking on the 'More From Songkick' button next to each saved artist!
+The ConcertMonsetr app is an easy way to search, follow, and keep track of when your favorite artists or bands are coming to your town! Inside you can creat an account, search for artists and save artists to your followed artists list. You can also get more information or even purchase tickets by clicking on the 'More From Songkick' button next to each saved artist!
 ## Screenshots
 
 Home Page View | Login Page View
@@ -23,7 +23,7 @@ User Dashboard - Search Artist page| User Dashboard - Followed Artists page
 ![Wireframe _Main](https://github.com/calorab/concertMonster-thinkful-client/blob/master/IMG_8197%202.HEIC)
 
 ## Working Prototype
-You can access a working prototype of the app here: [ConcertMonster - Beta]( --INSERT LINK TO CM HERE!!!!!!!!-- )
+You can access a working prototype of the app here: [ConcertMonster - Beta]( https://client-concertmonster.herokuapp.com/)
 
 ## Functionality
 The app's functionality includes:
@@ -43,4 +43,4 @@ App is strongly built to be usuable on mobile devices, as well as responsive acr
 ## Development Roadmap
 This is v1.0 of the app, but future enhancements are expected to include:
 * Concert results for Followed Artist when clicked
-* Updates for new tour info
+* Updates for new tour date info

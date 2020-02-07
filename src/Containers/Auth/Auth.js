@@ -32,7 +32,7 @@ class Login extends Component {
             apiEndpoint = 'https://concertmonster.herokuapp.com/auth/signup'
         }
         fetch(apiEndpoint, {
-            method: 'post',
+            method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
