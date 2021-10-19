@@ -31,6 +31,7 @@ class Login extends Component {
         if (this.state.isSignup) {
             apiEndpoint = 'https://concertmonster.herokuapp.com/auth/signup'
         }
+        
         fetch(apiEndpoint, {
             method: 'POST',
             headers: {
@@ -69,7 +70,7 @@ class Login extends Component {
 
         let form = 
             <Formik
-                initialValues={{ email: '', password: ''}}
+                initialValues={{ email: 'test@test.com', password: '12345'}}
                 validationSchema={Yup.object({
                 email: Yup.string()
                     .email('Invalid email address')
@@ -82,9 +83,9 @@ class Login extends Component {
                     this.onAuthHandler();
                 }}>
                 <Form className='testing' onSubmit={this.onAuthHandler} >
-                    <Field name="email" type="email" className={classes.InputElement} placeholder='Your Email' />
+                    <Field name="email" type="email" className={classes.InputElement} value='test@test.com' />
                     <ErrorMessage name="email" />
-                    <Field name="password" type="" className={classes.InputElement2} placeholder='Your Password' />
+                    <Field name="password" type="" className={classes.InputElement2} value='12345' />
                     <ErrorMessage name="password" />
                     <br></br>
                     <Button 

@@ -9,6 +9,10 @@
     border-radius: 10px;
 }
 
+strong {
+    color: rgba(22, 138, 233, 0.733);
+}
+
 @media (min-width: 600px) {
     .Paragraph {
         width: 500px;
