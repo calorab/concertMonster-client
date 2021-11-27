@@ -18,7 +18,7 @@ class Layout extends Component {
             return {sideDrawerOpen: !prevState.sideDrawerOpen};
         })
     }
-
+ 
     render(props) {
         return (
             <div>

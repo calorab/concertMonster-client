@@ -11,7 +11,7 @@ const sideDrawer = (props) => {
     if (props.open) {
         attachedClasses = [classes.SideDrawer, classes.open]
     }
-
+  
     return (
         <Aux>
             <Backdrop show={props.open} clicked={props.close}/>

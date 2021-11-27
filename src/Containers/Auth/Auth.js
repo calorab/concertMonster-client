@@ -27,6 +27,7 @@ class Login extends Component {
 
     onAuthHandler = (event) => {      
         event.preventDefault();
+        // 
         let apiEndpoint = 'https://concertmonster.herokuapp.com/auth/login';
         if (this.state.isSignup) {
             apiEndpoint = 'https://concertmonster.herokuapp.com/auth/signup'

@@ -17,6 +17,7 @@ class followedArtists extends Component {
     };
 
     getMyArtistsHandler = () => {
+        // 
         const url = 'https://concertmonster.herokuapp.com/followedartists/myartists';
         const token = sessionStorage.getItem('token');
         axios.request({
