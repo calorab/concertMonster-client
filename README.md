@@ -5,7 +5,7 @@ The ConcertMonsetr app is an easy way to search, follow, and keep track of when 
 
 Home Page View | Login Page View
 :-------------------------:|:-------------------------:
-![Home Page](https://github.com/calorab/concertMonster-thinkful-client/blob/master/ConcertMonster_Welcome%20Screen.png)  |![Login Page](https://github.com/calorab/concertMonster-client/blob/66248fa6833d7f23d5339ef094495b642d569abc/Login-Screen.png)
+![Home Page](https://github.com/calorab/concertMonster-client/blob/53005f930c2cf7c1dbf7f6a13cbd6041aced488f/Welcome-Screen.png)  |![Login Page](https://github.com/calorab/concertMonster-client/blob/66248fa6833d7f23d5339ef094495b642d569abc/Login-Screen.png)
 User Dashboard - Search Artist page| User Dashboard - Followed Artists page
 ![User Dashboard - Search Artist page](https://github.com/calorab/concertMonster-client/blob/66248fa6833d7f23d5339ef094495b642d569abc/Artist-Serach-Screen.png) |![User Dashboard - Followed Artists page](https://github.com/calorab/concertMonster-client/blob/66248fa6833d7f23d5339ef094495b642d569abc/My-Followed-Artists.png)
 
